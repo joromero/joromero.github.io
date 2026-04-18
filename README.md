@@ -1,4 +1,6 @@
 # joromero.github.io
+This is just a readme, please head to [https://joromero.github.io/index/html](https://joromero.github.io/index/html)
+
 
 ## Local preview
 
