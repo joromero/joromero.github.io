@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Irregular Tomestones of Aphorism — Rewards</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4d;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #c9a227;
+      --want: #3d7a4a;
+      --own: #4a6fa5;
+      --font: "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 3rem;
+    }
+    h1 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin: 0 0 0.25rem;
+      letter-spacing: 0.02em;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    .totals {
+      display: grid;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      padding: 1rem 1.1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .totals strong {
+      color: var(--accent);
+      font-size: 1.35rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .totals dl {
+      margin: 0;
+      display: grid;
+      gap: 0.35rem;
+    }
+    .totals dt {
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .totals dd {
+      margin: 0;
+    }
+    .totals .muted {
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .toolbar button {
+      font: inherit;
+      font-size: 0.85rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+    }
+    .toolbar button:hover {
+      border-color: var(--muted);
+    }
+    .toolbar button[aria-pressed="true"] {
+      border-color: var(--accent);
+      background: #232d3f;
+    }
+    .toolbar-cluster {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      align-items: center;
+    }
+    .toolbar-sep {
+      width: 1px;
+      height: 1.25rem;
+      background: var(--border);
+      margin: 0 0.15rem;
+      flex-shrink: 0;
+    }
+    @media (max-width: 36rem) {
+      .toolbar-sep {
+        width: 100%;
+        height: 1px;
+        margin: 0.35rem 0;
+      }
+    }
+    .err {
+      padding: 1rem;
+      background: #3a2020;
+      border: 1px solid #6b3030;
+      border-radius: 8px;
+      color: #f0c4c4;
+    }
+    .table-scroll {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    thead th {
+      text-align: left;
+      padding: 0.65rem 0.75rem;
+      background: #141c28;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    tbody td {
+      padding: 0.55rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr.owned {
+      opacity: 0.55;
+    }
+    tbody tr.owned td.item {
+      text-decoration: line-through;
+      text-decoration-color: var(--muted);
+    }
+    td.item {
+      font-weight: 500;
+    }
+    td.item .it { font-style: italic; }
+    td.cost {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      color: var(--accent);
+    }
+    td.source {
+      font-size: 0.82rem;
+      color: var(--muted);
+      max-width: 28rem;
+      word-break: break-word;
+    }
+    td.chk {
+      text-align: center;
+      width: 3rem;
+    }
+    td.chk input {
+      width: 1.1rem;
+      height: 1.1rem;
+      cursor: pointer;
+      accent-color: var(--want);
+    }
+    td.chk.own-cell input {
+      accent-color: var(--own);
+    }
+    .loading { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 id="page-title">Irregular Tomestones of Aphorism</h1>
+    <p class="sub">Track what you want, what you own, and how many Irregular Tomestones of Aphorism you still need. Progress is saved in this browser only.</p>
+
+    <div id="status" class="loading">Loading rewards…</div>
+    <div id="app" hidden>
+      <div class="totals">
+        <dl>
+          <dt>Tomestones still needed</dt>
+          <dd><strong id="total-needed">0</strong> <span class="muted">Irregular Tomestones of Aphorism</span></dd>
+        </dl>
+        <dl>
+          <dt>Wish list (before excluding owned)</dt>
+          <dd><span id="total-wish">0</span> <span class="muted">Irregular Tomestones of Aphorism</span></dd>
+        </dl>
+      </div>
+      <div class="toolbar">
+        <div class="toolbar-cluster">
+          <button type="button" id="toggle-hide-unwanted" aria-pressed="false" aria-label="Hide rows that are not on your wish list">Hide unwanted items</button>
+          <button type="button" id="toggle-hide-owned" aria-pressed="false" aria-label="Hide rows you marked as owned">Hide owned items</button>
+        </div>
+        <span class="toolbar-sep" aria-hidden="true"></span>
+        <div class="toolbar-cluster">
+          <button type="button" id="clear-want">Clear wanted items</button>
+          <button type="button" id="clear-own">Clear owned items</button>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Want</th>
+              <th>Own</th>
+              <th>Item</th>
+              <th>Cost (tomestones)</th>
+              <th>Original source</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = "ffxiv_irregulars_rewards_v1";
+
+      function loadState() {
+        try {
+          var raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) {
+            return { want: {}, own: {}, hideNotWant: false, hideOwned: false };
+          }
+          var o = JSON.parse(raw);
+          return {
+            want: o.want && typeof o.want === "object" ? o.want : {},
+            own: o.own && typeof o.own === "object" ? o.own : {},
+            hideNotWant: !!o.hideNotWant,
+            hideOwned: !!o.hideOwned,
+          };
+        } catch (e) {
+          return { want: {}, own: {}, hideNotWant: false, hideOwned: false };
+        }
+      }
+
+      function saveState(state) {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        } catch (e) {}
+      }
+
+      function esc(s) {
+        var d = document.createElement("div");
+        d.textContent = s;
+        return d.innerHTML;
+      }
+
+      function applyRowVisibility(state) {
+        var rows = document.querySelectorAll("tbody tr[data-item-key]");
+        rows.forEach(function (tr) {
+          var key = tr.dataset.itemKey;
+          var w = !!state.want[key];
+          var o = !!state.own[key];
+          var hide = false;
+          if (state.hideNotWant && !w) hide = true;
+          if (state.hideOwned && o) hide = true;
+          tr.hidden = hide;
+        });
+      }
+
+      function renderTotals(rewards, state) {
+        var wish = 0;
+        var need = 0;
+        for (var i = 0; i < rewards.length; i++) {
+          var r = rewards[i];
+          var key = r.item;
+          var cost = r.cost_irraphorism;
+          var w = !!state.want[key];
+          var o = !!state.own[key];
+          if (w) wish += cost;
+          if (w && !o) need += cost;
+        }
+        document.getElementById("total-needed").textContent = String(need);
+        document.getElementById("total-wish").textContent = String(wish);
+      }
+
+      function renderTable(rewards, state) {
+        var tbody = document.getElementById("tbody");
+        tbody.innerHTML = "";
+        for (var i = 0; i < rewards.length; i++) {
+          var r = rewards[i];
+          var key = r.item;
+          var tr = document.createElement("tr");
+          tr.dataset.itemKey = key;
+          if (state.own[key]) tr.className = "owned";
+
+          var tdWant = document.createElement("td");
+          tdWant.className = "chk";
+          var cbWant = document.createElement("input");
+          cbWant.type = "checkbox";
+          cbWant.checked = !!state.want[key];
+          cbWant.setAttribute("aria-label", "Want to purchase: " + key);
+          cbWant.dataset.key = key;
+          cbWant.dataset.kind = "want";
+          tdWant.appendChild(cbWant);
+
+          var tdOwn = document.createElement("td");
+          tdOwn.className = "chk own-cell";
+          var cbOwn = document.createElement("input");
+          cbOwn.type = "checkbox";
+          cbOwn.checked = !!state.own[key];
+          cbOwn.setAttribute("aria-label", "Already own: " + key);
+          cbOwn.dataset.key = key;
+          cbOwn.dataset.kind = "own";
+          tdOwn.appendChild(cbOwn);
+
+          var tdItem = document.createElement("td");
+          tdItem.className = "item";
+          var span = document.createElement("span");
+          if (r.style && r.style.italic) span.className = "it";
+          if (r.style && r.style.bold) span.style.fontWeight = "700";
+          var label = r.item;
+          if (r.quantity && r.quantity > 1) label += " ×" + r.quantity;
+          span.textContent = label;
+          tdItem.appendChild(span);
+
+          var tdCost = document.createElement("td");
+          tdCost.className = "cost";
+          tdCost.textContent = r.cost_irraphorism;
+
+          var tdSrc = document.createElement("td");
+          tdSrc.className = "source";
+          tdSrc.textContent = r.original_source_plain || r.original_source || "";
+
+          tr.appendChild(tdWant);
+          tr.appendChild(tdOwn);
+          tr.appendChild(tdItem);
+          tr.appendChild(tdCost);
+          tr.appendChild(tdSrc);
+          tbody.appendChild(tr);
+        }
+        applyRowVisibility(state);
+      }
+
+      function bindTableHandlers(rewards) {
+        var tbody = document.getElementById("tbody");
+        tbody.addEventListener("change", function (e) {
+          var t = e.target;
+          if (t.type !== "checkbox" || !t.dataset.key) return;
+          var st = loadState();
+          var k = t.dataset.key;
+          if (t.dataset.kind === "want") st.want[k] = t.checked;
+          else st.own[k] = t.checked;
+          saveState(st);
+          var row = t.closest("tr");
+          if (row) {
+            if (st.own[k]) row.classList.add("owned");
+            else row.classList.remove("owned");
+          }
+          renderTotals(rewards, st);
+          applyRowVisibility(st);
+        });
+      }
+
+      function syncToggleButtons(state) {
+        var btnU = document.getElementById("toggle-hide-unwanted");
+        var btnO = document.getElementById("toggle-hide-owned");
+        if (state.hideNotWant) {
+          btnU.textContent = "Show unwanted items";
+          btnU.setAttribute("aria-pressed", "true");
+          btnU.setAttribute("aria-label", "Show all rows again, including items not on your wish list");
+        } else {
+          btnU.textContent = "Hide unwanted items";
+          btnU.setAttribute("aria-pressed", "false");
+          btnU.setAttribute("aria-label", "Hide rows that are not on your wish list");
+        }
+        if (state.hideOwned) {
+          btnO.textContent = "Show owned items";
+          btnO.setAttribute("aria-pressed", "true");
+          btnO.setAttribute("aria-label", "Show owned rows again in the table");
+        } else {
+          btnO.textContent = "Hide owned items";
+          btnO.setAttribute("aria-pressed", "false");
+          btnO.setAttribute("aria-label", "Hide rows you marked as owned");
+        }
+      }
+
+      function wireToolbarToggles() {
+        document.getElementById("toggle-hide-unwanted").addEventListener("click", function () {
+          var st = loadState();
+          st.hideNotWant = !st.hideNotWant;
+          saveState(st);
+          syncToggleButtons(st);
+          applyRowVisibility(st);
+        });
+        document.getElementById("toggle-hide-owned").addEventListener("click", function () {
+          var st = loadState();
+          st.hideOwned = !st.hideOwned;
+          saveState(st);
+          syncToggleButtons(st);
+          applyRowVisibility(st);
+        });
+      }
+
+      function wireClear(rewards) {
+        document.getElementById("clear-want").addEventListener("click", function () {
+          var st = loadState();
+          st.want = {};
+          saveState(st);
+          syncCheckboxes(rewards, st);
+          renderTotals(rewards, st);
+          applyRowVisibility(st);
+        });
+        document.getElementById("clear-own").addEventListener("click", function () {
+          var st = loadState();
+          st.own = {};
+          saveState(st);
+          syncCheckboxes(rewards, st);
+          document.querySelectorAll("tbody tr").forEach(function (row) {
+            row.classList.remove("owned");
+          });
+          renderTotals(rewards, st);
+          applyRowVisibility(st);
+        });
+      }
+
+      function syncCheckboxes(rewards, st) {
+        var boxes = document.querySelectorAll('tbody input[type="checkbox"]');
+        boxes.forEach(function (cb) {
+          var k = cb.dataset.key;
+          if (cb.dataset.kind === "want") cb.checked = !!st.want[k];
+          else cb.checked = !!st.own[k];
+        });
+      }
+
+      fetch("raw_data.json")
+        .then(function (res) {
+          if (!res.ok) throw new Error("Could not load raw_data.json (" + res.status + ")");
+          return res.json();
+        })
+        .then(function (data) {
+          var rewards = data.rewards || [];
+          var state = loadState();
+          document.getElementById("status").hidden = true;
+          document.getElementById("app").hidden = false;
+          syncToggleButtons(state);
+          renderTable(rewards, state);
+          bindTableHandlers(rewards);
+          wireToolbarToggles();
+          renderTotals(rewards, state);
+          wireClear(rewards);
+        })
+        .catch(function (err) {
+          document.getElementById("status").className = "err";
+          document.getElementById("status").innerHTML =
+            "<strong>Could not load data.</strong> " +
+            esc(String(err.message)) +
+            "<p style=\"margin:0.75rem 0 0;font-size:0.9rem\">If you opened this file directly from disk, use a local server or open the hosted GitHub Pages URL so <code>raw_data.json</code> can load.</p>";
+        });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,677 @@
+{
+  "title": "Rewards",
+  "rewards": [
+    {
+      "item": "Miner's Earring",
+      "quantity": 1,
+      "cost_irraphorism": 100,
+      "original_source": "Exclusive to this event",
+      "original_source_plain": "Exclusive to this event",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Miner's Earring}}'''"
+    },
+    {
+      "item": "Fat Cat Parasol",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "Exclusive to this event, original source removed",
+      "original_source_plain": "Exclusive to this event, original source removed",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Fat Cat Parasol}}'''"
+    },
+    {
+      "item": "Emerald Gwiber Trumpet",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "Random drop from {{i|Castrum Marinum (Extreme)}} and purchasable for {{i|Emerald Totem|Emerald Totems|qty=99}}",
+      "original_source_plain": "Random drop from {{i|Castrum Marinum (Extreme)}} and purchasable for {{i|Emerald Totem|Emerald Totems|qty=99}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Emerald Gwiber Trumpet}}"
+    },
+    {
+      "item": "Ixion Clarion",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "Exchanged for {{i|Ixion Horn|qty=12}} from {{i|A Horse Outside}} (2 clears with gold rank)",
+      "original_source_plain": "Exchanged for {{i|Ixion Horn|qty=12}} from {{i|A Horse Outside}} (2 clears with gold rank)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Ixion Clarion}}"
+    },
+    {
+      "item": "Modern Aesthetics - Styled for Hire",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "{{wolf mark|18000}} [[Wolf Mark]]s",
+      "original_source_plain": "{{wolf mark|18000}} [[Wolf Mark]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Modern Aesthetics - Styled for Hire}}"
+    },
+    {
+      "item": "Ballroom Etiquette - Fear and Loathing",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "{{Centurio seal|3000}} [[Centurio Seals]]",
+      "original_source_plain": "{{Centurio seal|3000}} [[Centurio Seals]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Ballroom Etiquette - Fear and Loathing}}"
+    },
+    {
+      "item": "Blood on the Wind Orchestrion Roll",
+      "quantity": 1,
+      "cost_irraphorism": 50,
+      "original_source": "{{Bozjan cluster|25}} [[Bozjan Cluster]]s",
+      "original_source_plain": "{{Bozjan cluster|25}} [[Bozjan Cluster]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Blood on the Wind Orchestrion Roll}}"
+    },
+    {
+      "item": "Ironfrog Ambler",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "{{item icon|Formidable Cog|qty=6}} from {{i|A Finale Most Formidable}} (1 clear with gold rank)",
+      "original_source_plain": "{{item icon|Formidable Cog|qty=6}} from {{i|A Finale Most Formidable}} (1 clear with gold rank)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Ironfrog Ambler}}"
+    },
+    {
+      "item": "Craftsman's Coverall Top",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "{{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s",
+      "original_source_plain": "{{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Craftsman's Coverall Top}}"
+    },
+    {
+      "item": "Craftsman's Singlet",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "{{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s",
+      "original_source_plain": "{{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Craftsman's Singlet}}"
+    },
+    {
+      "item": "Craftsman's Coverall Bottoms",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "{{Skybuilders scrip|2000}} [[Skybuilders' Scrip]]s",
+      "original_source_plain": "{{Skybuilders scrip|2000}} [[Skybuilders' Scrip]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Craftsman's Coverall Bottoms}}"
+    },
+    {
+      "item": "MGP Platinum Card",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "Obtainable from {{i|Wondrous Tails}}'s 2 line and 3 line rewards",
+      "original_source_plain": "Obtainable from {{i|Wondrous Tails}}'s 2 line and 3 line rewards",
+      "style": {
+        "bold": false,
+        "italic": true
+      },
+      "item_cell_raw": "''{{item icon|MGP Platinum Card}}''"
+    },
+    {
+      "item": "Bomb Palanquin Horn",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "Purchased from [[Kobold Vendor]] after reaching {{reputation|kobold|trusted}}",
+      "original_source_plain": "Purchased from [[Kobold Vendor]] after reaching {{reputation|kobold|trusted}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Bomb Palanquin Horn}}"
+    },
+    {
+      "item": "Direwolf Whistle",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}",
+      "original_source_plain": "Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Direwolf Whistle}}"
+    },
+    {
+      "item": "Lunar Kamuy Fife",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "Random drop from {{i|The Minstrel's Ballad: Tsukuyomi's Pain}} and purchasable for {{i|Lunar Totem|Lunar Totems|qty=99}}",
+      "original_source_plain": "Random drop from {{i|The Minstrel's Ballad: Tsukuyomi's Pain}} and purchasable for {{i|Lunar Totem|Lunar Totems|qty=99}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Lunar Kamuy Fife}}"
+    },
+    {
+      "item": "Euphonious Kamuy Fife",
+      "quantity": 1,
+      "cost_irraphorism": 30,
+      "original_source": "Random drop from {{i|Hells' Kier (Extreme)}} and purchasable for {{i|Suzaku Totem|Suzaku Totems|qty=99}}",
+      "original_source_plain": "Random drop from {{i|Hells' Kier (Extreme)}} and purchasable for {{i|Suzaku Totem|Suzaku Totems|qty=99}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Euphonious Kamuy Fife}}"
+    },
+    {
+      "item": "Amaurotine Spire Chandelier",
+      "quantity": 1,
+      "cost_irraphorism": 20,
+      "original_source": "Crafted (level 90)",
+      "original_source_plain": "Crafted (level 90)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Amaurotine Spire Chandelier}}"
+    },
+    {
+      "item": "Ornamental Crystal Array",
+      "quantity": 1,
+      "cost_irraphorism": 20,
+      "original_source": "Crafted (level 90)",
+      "original_source_plain": "Crafted (level 90)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Ornamental Crystal Array}}"
+    },
+    {
+      "item": "Sweetfish Skewers",
+      "quantity": 1,
+      "cost_irraphorism": 20,
+      "original_source": "Crafted (level 90)",
+      "original_source_plain": "Crafted (level 90)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Sweetfish Skewers}}"
+    },
+    {
+      "item": "Raised Wooden Deck",
+      "quantity": 1,
+      "cost_irraphorism": 20,
+      "original_source": "Crafted (level 90)",
+      "original_source_plain": "Crafted (level 90)",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Raised Wooden Deck}}"
+    },
+    {
+      "item": "Mummer's Shelf",
+      "quantity": 1,
+      "cost_irraphorism": 20,
+      "original_source": "Purchased from [[Kasumi]] for {{gil|8800}}",
+      "original_source_plain": "Purchased from [[Kasumi]] for {{gil|8800}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Mummer's Shelf}}"
+    },
+    {
+      "item": "Wind-up Ixal",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}",
+      "original_source_plain": "Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Wind-up Ixal}}"
+    },
+    {
+      "item": "Magic Bucket",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "[[Fishing]] at [[Fishing Log: South Banepool]] (Estimated 0.57% bite rate, the lowest of all fish in the game.)",
+      "original_source_plain": "[[Fishing]] at [[Fishing Log: South Banepool]] (Estimated 0.57% bite rate, the lowest of all fish in the game.)",
+      "style": {
+        "bold": false,
+        "italic": true
+      },
+      "item_cell_raw": "''{{item icon|Magic Bucket}}''"
+    },
+    {
+      "item": "Heirloom Jacket of Fending",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Jacket of Fending}}"
+    },
+    {
+      "item": "Heirloom Jacket of Maiming",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Jacket of Maiming}}"
+    },
+    {
+      "item": "Heirloom Jacket of Striking",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Jacket of Striking}}"
+    },
+    {
+      "item": "Heirloom Jacket of Scouting",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Jacket of Scouting}}"
+    },
+    {
+      "item": "Heirloom Jacket of Aiming",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Jacket of Aiming}}"
+    },
+    {
+      "item": "Heirloom Tunic of Casting",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Tunic of Casting}}"
+    },
+    {
+      "item": "Heirloom Tunic of Healing",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Matoya's Relict}}",
+      "original_source_plain": "Random drop from {{i|Matoya's Relict}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Heirloom Tunic of Healing}}"
+    },
+    {
+      "item": "Paglth'an Jacket of Fending",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Jacket of Fending}}"
+    },
+    {
+      "item": "Paglth'an Jacket of Maiming",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Jacket of Maiming}}"
+    },
+    {
+      "item": "Paglth'an Chestpiece of Striking",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Chestpiece of Striking}}"
+    },
+    {
+      "item": "Paglth'an Chestpiece of Scouting",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Chestpiece of Scouting}}"
+    },
+    {
+      "item": "Paglth'an Chestpiece of Aiming",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Chestpiece of Aiming}}"
+    },
+    {
+      "item": "Paglth'an Chestwrap of Casting",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Chestwrap of Casting}}"
+    },
+    {
+      "item": "Paglth'an Chestwrap of Healing",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Random drop from {{i|Paglth'an}}",
+      "original_source_plain": "Random drop from {{i|Paglth'an}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Paglth'an Chestwrap of Healing}}"
+    },
+    {
+      "item": "Seemingly Special Timeworn Map",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Exclusive to this event, original source removed",
+      "original_source_plain": "Exclusive to this event, original source removed",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Seemingly Special Timeworn Map}}'''"
+    },
+    {
+      "item": "Ostensibly Special Timeworn Map",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Exclusive to this event, original source removed",
+      "original_source_plain": "Exclusive to this event, original source removed",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Ostensibly Special Timeworn Map}}'''"
+    },
+    {
+      "item": "Potentially Special Timeworn Map",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Exclusive to this event, original source removed",
+      "original_source_plain": "Exclusive to this event, original source removed",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Potentially Special Timeworn Map}}'''"
+    },
+    {
+      "item": "Conceivably Special Timeworn Map",
+      "quantity": 1,
+      "cost_irraphorism": 15,
+      "original_source": "Exclusive to this event, original source removed",
+      "original_source_plain": "Exclusive to this event, original source removed",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Conceivably Special Timeworn Map}}'''"
+    },
+    {
+      "item": "Middle La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Middle La Noscea Riding Map}} <ref name=\"arr\"> -Will become available for exchange once you have completed the main scenario quest {{i|The Ultimate Weapon}}</ref>"
+    },
+    {
+      "item": "Lower La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Lower La Noscea Riding Map}} <ref name=\"arr\" />"
+    },
+    {
+      "item": "Eastern La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Eastern La Noscea Riding Map}} <ref name=\"arr\" />"
+    },
+    {
+      "item": "Western La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Western La Noscea Riding Map}} <ref name=\"arr\" />"
+    },
+    {
+      "item": "Upper La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Upper La Noscea Riding Map}} <ref name=\"arr\" />"
+    },
+    {
+      "item": "Outer La Noscea Riding Map",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "original_source_plain": "[[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Outer La Noscea Riding Map}} <ref name=\"arr\" />"
+    },
+    {
+      "item": "Namazu Card",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "Random drop from beating [[Gyoei]] in [[Triple Triad]]",
+      "original_source_plain": "Random drop from beating [[Gyoei]] in [[Triple Triad]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Namazu Card}} <ref name=\"criminal phrenology\"> -Will become available for exchange once you have completed the quest {{i|Criminal Phrenology}}</ref>"
+    },
+    {
+      "item": "Kojin Card",
+      "quantity": 1,
+      "cost_irraphorism": 10,
+      "original_source": "Random drop from beating [[Tsuzura]] in [[Triple Triad]]",
+      "original_source_plain": "Random drop from beating [[Tsuzura]] in [[Triple Triad]]",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Kojin Card}} <ref name=\"our most venerated ancestor\"> -Will become available for exchange once you have completed the quest {{i|Our Most Venerated Ancestor}}</ref>"
+    },
+    {
+      "item": "Mist Dragon Card",
+      "quantity": 1,
+      "cost_irraphorism": 7,
+      "original_source": "Random drop from final boss of {{i|The Burn}}",
+      "original_source_plain": "Random drop from final boss of {{i|The Burn}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Mist Dragon Card}} <ref name=\"feel the burn\"> -Will become available for exchange once you have completed the main scenario quest {{i|Feel the Burn}}</ref>"
+    },
+    {
+      "item": "Tioman Card",
+      "quantity": 1,
+      "cost_irraphorism": 7,
+      "original_source": "Random drop from final boss of {{i|Sohm Al}}",
+      "original_source_plain": "Random drop from final boss of {{i|Sohm Al}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Tioman Card}} <ref name=\"mourn in passing\"> -Will become available for exchange once you have completed the main scenario quest {{i|Mourn in Passing}}</ref>"
+    },
+    {
+      "item": "Diamond Weapon Card",
+      "quantity": 1,
+      "cost_irraphorism": 7,
+      "original_source": "Random drop from {{i|The Cloud Deck}} or {{i|The Cloud Deck (Extreme)}}",
+      "original_source_plain": "Random drop from {{i|The Cloud Deck}} or {{i|The Cloud Deck (Extreme)}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Diamond Weapon Card}} <ref name=\"duty in the sky with diamond\"> -Will become available for exchange once you have completed the quest {{i|Duty in the Sky with Diamond}}</ref>"
+    },
+    {
+      "item": "Wind-up Succubus",
+      "quantity": 1,
+      "cost_irraphorism": 7,
+      "original_source": "{{Allied seal|500}} [[Allied Seal]]s",
+      "original_source_plain": "{{Allied seal|500}} [[Allied Seal]]s",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Wind-up Succubus}}"
+    },
+    {
+      "item": "Hopl's Dropple Orchestrion Roll",
+      "quantity": 1,
+      "cost_irraphorism": 7,
+      "original_source": "Purchased from [[Yuqurl Manl]] after reaching {{reputation|qitari|honored}}",
+      "original_source_plain": "Purchased from [[Yuqurl Manl]] after reaching {{reputation|qitari|honored}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Hopl's Dropple Orchestrion Roll}}"
+    },
+    {
+      "item": "Abigail Barding",
+      "quantity": 1,
+      "cost_irraphorism": 5,
+      "original_source": "Random drop from {{i|Silver-trimmed Sack}} or {{i|Gold-trimmed Sack}} from {{i|Palace of the Dead}}",
+      "original_source_plain": "Random drop from {{i|Silver-trimmed Sack}} or {{i|Gold-trimmed Sack}} from {{i|Palace of the Dead}}",
+      "style": {
+        "bold": false,
+        "italic": false
+      },
+      "item_cell_raw": "{{item icon|Abigail Barding}}"
+    },
+    {
+      "item": "Magicked Prism (Job Mastery)",
+      "quantity": 10,
+      "cost_irraphorism": 1,
+      "original_source": "Purchasable every [[Moogle Treasure Trove]] event",
+      "original_source_plain": "Purchasable every [[Moogle Treasure Trove]] event",
+      "style": {
+        "bold": true,
+        "italic": false
+      },
+      "item_cell_raw": "'''{{item icon|Magicked Prism (Job Mastery)}}''' x10"
+    }
+  ]
+}

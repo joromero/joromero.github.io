@@ -1,0 +1,119 @@
+==Rewards==
+{| {{STDT|sortable item align-left}}
+|-
+! Item
+! Cost
+! Original Source
+|-
+| '''{{item icon|Miner's Earring}}''' || {{tomestone|irraphorism|100}} || Exclusive to this event
+|-
+| '''{{item icon|Fat Cat Parasol}}''' || {{tomestone|irraphorism|50}} || Exclusive to this event, original source removed
+|-
+| {{item icon|Emerald Gwiber Trumpet}} || {{tomestone|irraphorism|50}} || Random drop from {{i|Castrum Marinum (Extreme)}} and purchasable for {{i|Emerald Totem|Emerald Totems|qty=99}} 
+|-
+| {{item icon|Ixion Clarion}} || {{tomestone|irraphorism|50}} || Exchanged for {{i|Ixion Horn|qty=12}} from {{i|A Horse Outside}} (2 clears with gold rank)
+|-
+| {{item icon|Modern Aesthetics - Styled for Hire}} || {{tomestone|irraphorism|50}} || {{wolf mark|18000}} [[Wolf Mark]]s
+|-
+| {{item icon|Ballroom Etiquette - Fear and Loathing}} || {{tomestone|irraphorism|50}} || {{Centurio seal|3000}} [[Centurio Seals]]
+|-
+| {{item icon|Blood on the Wind Orchestrion Roll}} || {{tomestone|irraphorism|50}} || {{Bozjan cluster|25}} [[Bozjan Cluster]]s
+|-
+| {{item icon|Ironfrog Ambler}} || {{tomestone|irraphorism|30}} || {{item icon|Formidable Cog|qty=6}} from {{i|A Finale Most Formidable}} (1 clear with gold rank)
+|-
+| {{item icon|Craftsman's Coverall Top}} || {{tomestone|irraphorism|30}} || {{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s
+|-
+| {{item icon|Craftsman's Singlet}} || {{tomestone|irraphorism|30}} || {{Skybuilders scrip|2200}} [[Skybuilders' Scrip]]s
+|-
+| {{item icon|Craftsman's Coverall Bottoms}} || {{tomestone|irraphorism|30}} || {{Skybuilders scrip|2000}} [[Skybuilders' Scrip]]s
+|-
+| ''{{item icon|MGP Platinum Card}}'' || {{tomestone|irraphorism|30}} || Obtainable from {{i|Wondrous Tails}}'s 2 line and 3 line rewards
+|-
+| {{item icon|Bomb Palanquin Horn}} || {{tomestone|irraphorism|30}} || Purchased from [[Kobold Vendor]] after reaching {{reputation|kobold|trusted}}
+|-
+| {{item icon|Direwolf Whistle}} || {{tomestone|irraphorism|30}} || Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}
+|-
+| {{item icon|Lunar Kamuy Fife}} || {{tomestone|irraphorism|30}} || Random drop from {{i|The Minstrel's Ballad: Tsukuyomi's Pain}} and purchasable for {{i|Lunar Totem|Lunar Totems|qty=99}} 
+|-
+| {{item icon|Euphonious Kamuy Fife}} || {{tomestone|irraphorism|30}} || Random drop from {{i|Hells' Kier (Extreme)}} and purchasable for {{i|Suzaku Totem|Suzaku Totems|qty=99}}
+|-
+| {{item icon|Amaurotine Spire Chandelier}} || {{tomestone|irraphorism|20}} || Crafted (level 90)
+|-
+| {{item icon|Ornamental Crystal Array}} || {{tomestone|irraphorism|20}} || Crafted (level 90)
+|-
+| {{item icon|Sweetfish Skewers}} || {{tomestone|irraphorism|20}} || Crafted (level 90)
+|-
+| {{item icon|Raised Wooden Deck}} || {{tomestone|irraphorism|20}} || Crafted (level 90)
+|-
+| {{item icon|Mummer's Shelf}} || {{tomestone|irraphorism|20}} || Purchased from [[Kasumi]] for {{gil|8800}}
+|-
+| {{item icon|Wind-up Ixal}} || {{tomestone|irraphorism|15}} || Purchased from [[Ixali Vendor]] after reaching {{reputation|ixal|sworn}}
+|-
+| ''{{item icon|Magic Bucket}}''|| {{tomestone|irraphorism|15}} || [[Fishing]] at [[Fishing Log: South Banepool]] (Estimated 0.57% bite rate, the lowest of all fish in the game.)
+|-
+| {{item icon|Heirloom Jacket of Fending}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Jacket of Maiming}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Jacket of Striking}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Jacket of Scouting}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Jacket of Aiming}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Tunic of Casting}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Heirloom Tunic of Healing}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Matoya's Relict}}
+|-
+| {{item icon|Paglth'an Jacket of Fending}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Jacket of Maiming}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Chestpiece of Striking}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Chestpiece of Scouting}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Chestpiece of Aiming}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Chestwrap of Casting}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| {{item icon|Paglth'an Chestwrap of Healing}} || {{tomestone|irraphorism|15}} || Random drop from {{i|Paglth'an}}
+|-
+| '''{{item icon|Seemingly Special Timeworn Map}}''' || {{tomestone|irraphorism|15}} || Exclusive to this event, original source removed
+|-
+| '''{{item icon|Ostensibly Special Timeworn Map}}''' || {{tomestone|irraphorism|15}} || Exclusive to this event, original source removed
+|-
+| '''{{item icon|Potentially Special Timeworn Map}}''' || {{tomestone|irraphorism|15}} || Exclusive to this event, original source removed
+|-
+| '''{{item icon|Conceivably Special Timeworn Map}}''' || {{tomestone|irraphorism|15}} || Exclusive to this event, original source removed
+|-
+|{{item icon|Middle La Noscea Riding Map}} <ref name="arr"> -Will become available for exchange once you have completed the main scenario quest {{i|The Ultimate Weapon}}</ref> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+|{{item icon|Lower La Noscea Riding Map}} <ref name="arr" /> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+|{{item icon|Eastern La Noscea Riding Map}} <ref name="arr" /> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+|{{item icon|Western La Noscea Riding Map}} <ref name="arr" /> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+|{{item icon|Upper La Noscea Riding Map}} <ref name="arr" /> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+|{{item icon|Outer La Noscea Riding Map}} <ref name="arr" /> || {{tomestone|irraphorism|10}} || [[Hunt Billmaster]], {{Allied seal|250}} [[Allied Seal]]
+|-
+| {{item icon|Namazu Card}} <ref name="criminal phrenology"> -Will become available for exchange once you have completed the quest {{i|Criminal Phrenology}}</ref> || {{tomestone|irraphorism|10}} || Random drop from beating [[Gyoei]] in [[Triple Triad]]
+|-
+| {{item icon|Kojin Card}} <ref name="our most venerated ancestor"> -Will become available for exchange once you have completed the quest {{i|Our Most Venerated Ancestor}}</ref> || {{tomestone|irraphorism|10}} || Random drop from beating [[Tsuzura]] in [[Triple Triad]]
+|-
+| {{item icon|Mist Dragon Card}} <ref name="feel the burn"> -Will become available for exchange once you have completed the main scenario quest {{i|Feel the Burn}}</ref> || {{tomestone|irraphorism|7}} || Random drop from final boss of {{i|The Burn}}
+|-
+| {{item icon|Tioman Card}} <ref name="mourn in passing"> -Will become available for exchange once you have completed the main scenario quest {{i|Mourn in Passing}}</ref> || {{tomestone|irraphorism|7}} || Random drop from final boss of {{i|Sohm Al}}
+|-
+| {{item icon|Diamond Weapon Card}} <ref name="duty in the sky with diamond"> -Will become available for exchange once you have completed the quest {{i|Duty in the Sky with Diamond}}</ref> || {{tomestone|irraphorism|7}} || Random drop from {{i|The Cloud Deck}} or {{i|The Cloud Deck (Extreme)}}
+|-
+| {{item icon|Wind-up Succubus}} || {{tomestone|irraphorism|7}} || {{Allied seal|500}} [[Allied Seal]]s
+|-
+| {{item icon|Hopl's Dropple Orchestrion Roll}} || {{tomestone|irraphorism|7}} || Purchased from [[Yuqurl Manl]] after reaching {{reputation|qitari|honored}}
+|-
+| {{item icon|Abigail Barding}} || {{tomestone|irraphorism|5}} || Random drop from {{i|Silver-trimmed Sack}} or {{i|Gold-trimmed Sack}} from {{i|Palace of the Dead}}
+|-
+| '''{{item icon|Magicked Prism (Job Mastery)}}''' x10 || {{tomestone|irraphorism|1}} || Purchasable every [[Moogle Treasure Trove]] event
+|}
